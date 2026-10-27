@@ -99,6 +99,8 @@ VirtualBox suggests `10.0.2.0/24` by default, so the prefix was changed to `10.0
 
 A **NAT Network** was chosen because virtual machines on the same NAT Network can talk to each other while still having outbound access. This lets future attacker and target VMs communicate inside the lab.
 
+<img width="1070" height="576" alt="nat-network-settings" src="https://github.com/user-attachments/assets/40f35d66-c5cf-469e-bc4d-f0388c26137a" />
+
 ---
 
 ## Step 4. Attach Kali Linux to the NAT Network
@@ -147,6 +149,7 @@ Clean Kali - Network Setup
 
 This is the clean baseline of the lab. If a later exercise breaks the VM, I can restore it to this point.
 
+<img width="1193" height="626" alt="snapshot" src="https://github.com/user-attachments/assets/e409a67a-cfed-4bda-88e5-a4caa31f20be" />
 
 ---
 
@@ -161,6 +164,7 @@ This is the clean baseline of the lab. If a later exercise breaks the VM, I can 
 | 🧰 Verify Nmap                | `nmap --version`           | Nmap 7.94 installed                        |
 | 📸 Snapshot                   | VirtualBox Snapshots       | Clean baseline snapshot saved              |
 
+<img width="1280" height="576" alt="WhatsApp Image 2026-10-27 at 5 06 42 AM (1)" src="https://github.com/user-attachments/assets/2ab471b3-d240-4d99-ac41-b0d88ca1cc67" />
 
 ---
 
